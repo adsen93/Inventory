@@ -14,7 +14,6 @@ public class Driver {
 		if(test.verify())
 			System.out.println("login successful");
 		master.createItem("printer", "abc123", 1);
-		searched = master.inventory.getFirst();
 		searched = master.searchItem("printer");
 		System.out.println(searched.getName());
 	/*	createUser("a","a");
